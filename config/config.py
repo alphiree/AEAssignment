@@ -2,30 +2,12 @@
 folder_alias = "LUPAGUE_RMJM"
 
 ##=====================================##
-## S3 Bucket Details
-bucket_name = "test-ae-exam-public-lupague"
-bucket_data_path = "data"
-bucket_report_path = "reports"
-access_key_id = "AKIAZUQXITMDOQDBJMMJ"
-secret_access_key = "2QPw6jLyW8oqqj81dsnHY4Ggg7ElPZZqWa8CNaH"
-
-##=====================================##
 ## Database Details
 environment = "prod"
-# host = "company1@country.co"
-# database = "platform_prod"
-# user = "analytics"
-# password = "securepassword"
-
-## Testing purposes
-host = "localhost"
-database = "postgres"
-user = "postgres"
-#or
-# user = os.environ['postgres_user']
-password = "Postgre2201"
-#or
-# password = os.environ['postgres_pass']
+host = "company1@country.co"
+database = "platform_prod"
+user = "analytics"
+password = "securepassword"
 
 ## Table name
 table_name = "events"
