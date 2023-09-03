@@ -75,4 +75,9 @@ GROUP BY
     CUSTOMER_COUNTRY
 """
 
+# {name}_QUERY = f"""
+
+
+# """
+
 

@@ -7,7 +7,7 @@ from sqlalchemy import create_engine,text
 import os
 
 ## Importing all the queries
-from utils.D1_sql_queries import FINANCE_QUERY, MARKETING_QUERY
+from utils.D1_sql_queries import *
 
 ## Creating dictionary for list of quries:
 queries_dict = {
