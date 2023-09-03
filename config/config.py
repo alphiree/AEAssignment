@@ -1,14 +1,40 @@
+## Changing the folder_alias to my last name and initials
+folder_alias = "LUPAGUE_RMJM"
+
+##=====================================##
+## S3 Bucket Details
+bucket_name = "test-ae-exam-public-lupague"
+bucket_data_path = "data"
+bucket_report_path = "reports"
+access_key_id = "AKIAZUQXITMDOQDBJMMJ"
+secret_access_key = "2QPw6jLyW8oqqj81dsnHY4Ggg7ElPZZqWa8CNaH"
+
+##=====================================##
+## Database Details
 environment = "prod"
-host = "company1@country.co"
-password = "securepassword"
-database = "platform_prod"
+# host = "company1@country.co"
+# database = "platform_prod"
+# user = "analytics"
+# password = "securepassword"
+
+## Testing purposes
+host = "localhost"
+database = "postgres"
+user = "postgres"
+#or
+# user = os.environ['postgres_user']
+password = "Postgre2201"
+#or
+# password = os.environ['postgres_pass']
+
+## Table name
 table_name = "events"
-user = "analytics"
-bucket_name = "test-ae-exam-public"
+##=====================================##
+## Folder Details
 reports_folder = "reports"
 data_folder = "data"
-folder_alias = "TESTING"
-
+##=====================================##
+## Datatypes of the table
 datatypes = {
     "transaction_id": "INT",
     "purchase_price": "FLOAT",
