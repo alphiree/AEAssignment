@@ -1,3 +1,12 @@
+## Things I modified to this repository. 
+
+1. I modified the functions in a way that they will be displayed in the order that they are executed. Personally, I find this easier to visualize the flow of the script.
+
+2. The reports per team are generated automatically. If there are new reports to be added, only the sql query are needed.
+
+3. I simulated this script in my local machine. See the video that I attached to the email for more information.
+
+
 You just started working for a company that sells products for a couple of countries in the world.
 
 The Data Engineering team set up a process where you will receive a file into an s3 bucket on a daily basis. (An example of the last one is available under the ```data/``` folder).
